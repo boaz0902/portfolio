@@ -1,0 +1,33 @@
+{
+  "name": "it-portfolio",
+  "version": "1.0.0",
+  "description": "Modern IT Portfolio Website - Full Stack Developer Showcase",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss -i assets/css/input.css -o assets/css/output.css",
+    "dev": "tailwindcss -i assets/css/input.css -o assets/css/output.css --watch",
+    "watch": "tailwindcss -i assets/css/input.css -o assets/css/output.css --watch"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "full-stack",
+    "html",
+    "css",
+    "javascript",
+    "tailwind",
+    "responsive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/portfolio.git"
+  },
+  "homepage": "https://yourportfolio.vercel.app",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4.2.2"
+  },
+  "devDependencies": {}
+}
