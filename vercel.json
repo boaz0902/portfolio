@@ -2,8 +2,8 @@
   "buildCommand": "tailwindcss -i assets/css/input.css -o assets/css/output.css",
   "outputDirectory": ".",
   "env": {
-    "EMAILJS_PUBLIC_KEY": "@emailjs_public_key",
-    "EMAILJS_SERVICE_ID": "@emailjs_service_id",
-    "EMAILJS_TEMPLATE_ID": "@emailjs_template_id"
+    "EMAILJS_PUBLIC_KEY": "ri0GSoZBZynorNIzj",
+    "EMAILJS_SERVICE_ID": "service_rmk6ny5",
+    "EMAILJS_TEMPLATE_ID": "template_h7b06hu"
   }
 }
