@@ -1,12 +1,4 @@
 // Contact Form Handler with EmailJS
-document.addEventListener('DOMContentLoaded', function() {
-    // Initialize EmailJS with your public key
-    if (typeof emailjs !== 'undefined') {
-        emailjs.init('ri0GSoZBZynorNIzj');
-    } else {
-        console.error('EmailJS library not loaded. Make sure the script is loaded in index.html');
-    }
-
     const contactForm = document.getElementById('contact-form');
     const formMessage = document.getElementById('form-message');
 
